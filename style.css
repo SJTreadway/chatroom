@@ -7,21 +7,25 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
-  background: orange;
+  background: tomato;
 }
 
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
+  background-color: tomato;
   padding: 5px;
   border-radius: 10px;
+  border: 1px solid white;
+}
+
+.jumbotron {
+  background: tomato;
 }
 
 .main-container h1 {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  color: white;
 }
 
 .text-box {
@@ -33,6 +37,7 @@ p{
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
+  color: white;
 }
 
 .messages-container {
